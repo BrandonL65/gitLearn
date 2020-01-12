@@ -5,3 +5,9 @@ animals.forEach(animal => {
 })
 
 let birds = ["cockatiel", "owl", "dove"];
+
+birds.forEach(b => {
+  console.log(b);
+})
+
+//This loops thru the birds ^^
