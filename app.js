@@ -26,3 +26,7 @@ class Bird {
 let c = new Bird("coocoo", "cockatiel");
 
 c.sayBreed();
+
+let TEST = new Bird("TESTER", "TESTBIRD");
+
+TEST.sayBreed();
