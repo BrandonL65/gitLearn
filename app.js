@@ -11,3 +11,18 @@ birds.forEach(b => {
 })
 
 //This loops thru the birds ^^
+
+class Bird {
+  constructor(name, breed) {
+    this.name = name;
+    this.breed = breed;
+  }
+
+  sayBreed() 
+  {
+    console.log(`${this.name} is a ${this.breed}`)
+  }
+}
+let c = new Bird("coocoo", "cockatiel");
+
+c.sayBreed();
